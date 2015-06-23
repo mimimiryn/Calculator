@@ -125,6 +125,7 @@ class ViewController: UIViewController {
     @IBAction func equal(){
         if(operation == 1){
             label.text = String(number + suru)
+            
         }else if(operation == 2){
             label.text = String(suru - number)
         }else if(operation == 3){
